@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#u1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active1 {
+  background-color: orange;
+  color: white;
+}
+
+li a.inactive1 {
+    background-color: rgb(89, 198, 228);
+    color: black;
+}
+
+li a:hover:not(.active1) {
+  background-color: #555;
+  color: white;
+}
+
+/*
+#u2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+l {
+    float: left;
+  }
+  
+l active2 {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  l a:hover:not(.active2) {
+    background-color:darkgrey;
+  }
+  
+  l a.active2 {
+    color: white;
+    background-color:#666;
+  } */
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+
+<ul id="u1">
+  <li><a class="active1" href="#home">Home</a></li>
+  <li><a class="inactive1" href="#java">JAVA</a></li>
+  <li><a class="inactive1" href="#css">CSS</a></li>
+  <li><a class="inactive1" href="#html">HTML</a></li>
+  <li><a class="inactive1" href="#bootstrap">Bootstrap</a></li>
+</ul>
+ <br/>
+
+<!-- <h2>Horizontal Navigation Bar</h2> 
+<ul id="u2">
+    <li class="l"><a class="active2" href="#home">Home</a></li>
+    <li class="l"><a class="inactive2" href="#java">JAVA</a></li>
+    <li class="l"><a class="inactive2" href="#css">CSS</a></li>
+    <li class="l"><a class="inactive2" href="#html">HTML</a></li>
+    <li class="l"><a class="inactive2" href="#"></a></li> 
+</ul>  -->
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .h {
+        text-align: center;
+    }
+    .boxed {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        border: 1px solid #0b0b0b;
+        background-color: white;
+        width: 30%;
+    }
+    #u2 {
+        list-style-type: none;
+        margin: 0;
+        padding: 2px; 
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+        width: 90%;
+      }
+      
+    .l {
+        float: left;
+        border-right: 1px solid black;
+      }
+      
+    .l active2 {
+        display: block;
+        color: #666; !important
+        text-align: center;
+        float: left;
+        text-decoration: none;
+      }
+      
+    .l a:hover:not(.active2) {
+        background-color:darkgrey; !important
+      }
+      
+    .l a.active2 {
+        color: white;
+        background-color:#666; !important
+      }
+</style>
+</head>
+<body>
+    <h2 class="h">Horizontal Navigation Bar</h2>
+    <center>
+    <div class="boxed">
+        <ul id="u2">
+            <li class="l"><a class="active2" href="#home">Home</a></li>
+            <li class="l"><a href="#java">JAVA</a></li>
+            <li class="l"><a href="#css">CSS</a></li>
+            <li class="l"><a href="#html">HTML</a></li>
+            <li class="l"><a  href="#"></a></li>
+            </ul>
+    </div>
+    </center>
+</body>
+</html>
+
+
+

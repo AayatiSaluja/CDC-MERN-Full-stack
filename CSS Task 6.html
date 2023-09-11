@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 10%;
+            margin-left: 550px;
+        }
+        #i1 {
+            margin-left: 500px;
+        }
+        .Lo {
+            padding-right: 100px;
+            padding-left: 100px;
+            padding-block: 5px;
+            background-color: rgb(39, 159, 39);
+        }
+        .Cn {
+            padding-right: 100px;
+            padding-left: 100px;
+            padding-block: 5px;
+            background-color: rgb(199, 68, 94);
+        }
+        .re {
+            padding-left: 25px;
+            background-color: rgb(172, 172, 172);
+            width: 35%;
+        }
+        .i1 {
+            width: 30%;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="./img.jpg" alt="img">
+    <form id="i1">
+        <label for="unm">Username</label> <br/>
+        <br/> <input class="i1" type="text" name="unm" placeholder="Enter Userame" required/> <br/>
+        
+
+        <br/> <label for="pwd">Password</label> <br/>
+        <br/> <input class="i1"  type="password" name="pwd" placeholder="Enter Password" required/><br/>
+        
+
+        <br/> <input class="Lo" type="submit" value="Login" /><br/>
+
+        <br/> <input type="checkbox" checked /> Remember Me <br/>
+
+        <div class="re">
+            <br/> <input class="Cn" type="reset" value="Cancel" /> 
+            <p>Forgot <a href="#">password</a> ?</p> <br/>
+        </div>
+    </form>
+</body>
+</html>
