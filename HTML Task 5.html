@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color:blue; 
+        text-align: center;
+    }
+    #i1 {
+        text-align: right;
+    }
+    body {
+        text-align: center;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+</style>
+<body>
+    <h1 >Registration form</h1>
+    <form>
+    <table class="center" border="1" cellpadding="10" cellspacing="1"  bordercolor="Black" bgcolor="white" height="100" width="500">
+        <tr>
+            <td>First Name</td>
+            <td> </td>
+            
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>
+                    <label for="pwd">Password</label>
+            </td>
+                <td>
+                    <input type="Password" name="pwd">
+                </td>
+            </form>
+            
+        </tr>
+        <tr>
+            
+                <td>
+                    <label for="rpwd">Re-enter Password</label>
+                </td>
+                <td>
+                    <input type="Password" name="rpwd">
+                </td>
+            
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                
+                    <input type="radio" name="gender" /> Male
+                    <input type="radio" name="gender" /> Female
+                 
+            </td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+                <td>
+                    <select>
+                        <option>Choose your Country</option>
+                        <option>India</option>
+                        <option>Bali</option>
+                        <option>Belgium</option>
+                        <option>Argentina</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Canada</option>
+                        <option>Japan</option>
+                        <option>China</option>
+                        <option>Russia</option>
+                    </select>
+                </td>            
+        </tr>
+        <tr>
+            <td>Languages known</td>
+            <td>                
+                    <input type="checkbox" /> English
+                    <input type="checkbox" /> Kannada
+                    <input type="checkbox" /> Hindi
+                    <input type="checkbox" /> Telugu
+                </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" checked /> Hereby I declare all the given details are true
+                
+            </td>
+        </tr>
+        <tr>
+            <td id="i1" colspan="2">
+                Log in to <a href="https://www.ethnus.com">Ethnus</a> website
+            </td>
+        </tr>
+    </table>
+    <input id="i2" type="submit" value="Register" />
+    </form>
+
+</body>
+</html>
